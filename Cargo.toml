@@ -1,0 +1,21 @@
+[package]
+edition = "2021"
+name = "daily-algo-method"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# flame = "0.2.2"
+# pprof = {version = "0.8.0", features = ["protobuf", "protobuf-codec", "flamegraph"]}
+#profiling = "1.0"
+
+[profile.release]
+debug = true
+
+#[features]
+#profile-with-optick = ["profiling/profile-with-optick"]
+#profile-with-puffin = ["profiling/profile-with-puffin"]
+#profile-with-superluminal = ["profiling/profile-with-superluminal"]
+#profile-with-tracing = ["profiling/profile-with-tracing"]
+#profile-with-tracy = ["profiling/profile-with-tracy"]
